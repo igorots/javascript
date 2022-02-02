@@ -102,7 +102,8 @@ document.write(12)
 let firstName = ("Igor")
 let middleName = ("Volodemaroveth")
 let lastName = ("Otsaluk")
-document.write(firstName, middleName, lastName)
+let person = (lastName + middleName + lastName)
+document.write(person)
 //- За допомогою 3х різних prompt() отримати 3 слова які являються вашими Імям, По-Батькові та роками.
 //     Вивести "Вітаю *Імя* *По батькові*. Тобі *вік* років".
 let firstName = prompt('Ваше імя?');
@@ -134,8 +135,8 @@ console.log(typeof c)
 // - Подумайте Какие значения выведет в окно браузера следующий фрагмент кода?  и почему?
 let str = "20";
 let a = 5;
-document.write(str + a + "<br/>"); //25
-document.write(str - a + "<br/>"); //15
-document.write(str * "2" + "<br/>");//202
-document.write(str / 2 + "<br/>");//10
+document.write(str + a + "<br/>"); //
+document.write(str - a + "<br/>"); //
+document.write(str * "2" + "<br/>");//
+document.write(str / 2 + "<br/>");//
 
