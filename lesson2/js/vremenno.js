@@ -23,3 +23,9 @@ if (time >= 0 && time <= 15){
 // if (day => 21 && day => 31){
 //     console.log("3D")
 // }
+for (const timeKey in time) {
+
+}
+for (const timeElement of time) {
+    
+}
