@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69aa0090-2f11-4fe8-9af2-8f847c822891" name="Changes" comment="vbxm">
-      <change afterPath="$PROJECT_DIR$/lesson5/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson5/js/homework.js" afterDir="false" />
+    <list default="true" id="69aa0090-2f11-4fe8-9af2-8f847c822891" name="Changes" comment="st hom 5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson3/js/homwork.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson3/js/homwork.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson5/js/homework.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson5/js/homework.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +82,7 @@
       <workItem from="1644341668495" duration="5126000" />
       <workItem from="1644412854649" duration="1692000" />
       <workItem from="1644440723738" duration="598000" />
-      <workItem from="1644488038731" duration="454000" />
+      <workItem from="1644488038731" duration="12396000" />
     </task>
     <task id="LOCAL-00001" summary="vbxm">
       <created>1644346794664</created>
@@ -93,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644346794664</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="st hom 5">
+      <created>1644489468858</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1644489468858</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +117,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="vbxm" />
-    <option name="LAST_COMMIT_MESSAGE" value="vbxm" />
+    <MESSAGE value="st hom 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="st hom 5" />
   </component>
 </project>
