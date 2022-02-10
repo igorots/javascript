@@ -1,10 +1,10 @@
 //--створити масив з:
 // - з 5 числових значень
-let masNumbers =[0, 2, 3, 4, 5]
+/*let masNumbers =[0, 2, 3, 4, 5]*/
 // - з 5 стічкових значень
-let mastxt = ["Жизнь", "— это", "не те дни", ", что прошли,", "а те, что запомнились"]
+/*let mastxt = ["Жизнь", "— это", "не те дни", ", что прошли,", "а те, что запомнились"]*/
 // - з 5 значень стрічкового, числового та булевого типу
-let mas = [
+/*let mas = [
     {
         name: 'Pavlo',
         lastN: 'Sterin',
@@ -42,32 +42,34 @@ let mas = [
 
 ]
 // - та вивести його в консоль
-console.log(mas)
+console.log(mas)*/
 // -- Створити пустий масив. Наповнити його будь-якими значеннями звертаючись до конкретного індексу.
 // Вивести в консоль
-let b = []
+/*let b = []
 b [0] = 1
 b [1] = 2
 b [3] = 4
 console.log(b)
-document.write(b)
+document.write(b)*/
 // - За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом всередині
-document.write('<div>');
+/*document.write('<div>');
 for (let x = 0; x < 10; x++) {
     document.write('<div> За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом всередині</div>')
 }
-document.write('</div>')
+document.write('</div>')*/
 // - За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом і індексом всередині
-document.write('<div>');
+/*document.write('<div>');
 for (let i = 0; i < 10; i++) {
     document.write(`<div>${i} text </div>`)
 }
-document.write('</div>')
+document.write('</div>')*/
 // - За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом всередині.
 
 document.write(`<div>`)
-     while (s = 0; s < 20; s++) {
-    document.write(`<h1>${i} text </h1>`)
+let i = 0;
+     while (i = 0 i < 20) {
+    document.write(`<h1>${i}text</h1>`)
+    i++
 }
  document.write(`</div>`)
 // - За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом і індексом всередині.
