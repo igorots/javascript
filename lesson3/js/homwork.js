@@ -64,26 +64,99 @@ for (let i = 0; i < 10; i++) {
 }
 document.write('</div>')*/
 // - За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом всередині.
-
+/*
 document.write(`<div>`)
 let i = 0;
      while (i = 0 i < 20) {
     document.write(`<h1>${i}text</h1>`)
-    i++
+    i++ів. Вивести в консоль всі його елементи в циклі.
 }
- document.write(`</div>`)
+ document.write(`</div>`)*/
 // - За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом і індексом всередині.
+/*let ex = 0;
+while (ex < 20) {
+    document.write(`<h1> ${i} "text" </h1>`)
+    ex++
+}*/
 
 // - Створити масив з 10 числових елементів. Вивести в консоль всі його елементи в циклі.
+/*let namArray = [1, 2, 3, 33, 44, 55, 66, 77, 78, 88]
+for (i = 0; i < namArray.length; i++) {
+    console.log(namArray[i])
+}*/
 // - Створити масив з 10 строкрових елементів. Вивести в консоль всі його елементи в циклі.
+/*let textArr = ['q', 'w', 'e', 'f', 't', 'hg', 'tr', 'trr', 'rttty']
+for (i = 0; i < textArr.length; i++) {
+    console.log(textArr[i])
+}*/
 // - Створити масив з 10 елементів будь-якого типу. Вивести в консоль всі його елементи в циклі.
+/*let array = [2, 3, 33, 44, 't', 'hg', 'tr', 'trr', 55, 66, 77, 78,]
+for (i = 0; i < array.length; i++) {
+    console.log(array[i])
+}*/
 // - Створити масив з 10 елементів числового, стірчкового і булевого типу. За допомогою if та typeof вивести тільки булеві елементи
+/*let array2 = [2, 3, 33, 44, 't', 'hg', 'tr', 'trr', 55, 66, 77, 78, true, false]
+for (i = 0; i < array2.length; i++) {
+    if (typeof array2[i] === 'boolean') {
+        console.log(array2[i])
+    }
+}*/
 // - Створити масив з 10 елементів числового, стірчкового і булевого типу. За допомогою if та typeof вивести тільки числові елементи
+/*for (i = 0; i < array2.length; i++) {
+    if (typeof array2[i] === "number") {
+        console.log(array2[i])
+    }
+}*/
 // - Створити масив з 10 елементів числового, стрічкового і булевого типу. За допомогою if та typeof вивести тільки рядкові елементи
-//
+/*for (i = 0; i < array2.length; i++) {
+    if (typeof array2[i] === "string") {
+        console.log(array2[i])
+    }
+}*/
 // - Створити порожній масив. Наповнити його 10 елементами (різними за типами) через звернення до конкретних індексів. Вивести в консоль всі його елементи в циклі.
-// - Створити цикл for на 10  ітерацій з кроком 1. Вивести поточний номер кроку через console.log та document.write
+/*let array3 = []
+array3[1] = 1
+array3[2] = 'jhjlk'
+array3[0] = true
+array3[3] = 5
+array3[4] = 'djjjj'
+array3[5] = 9
+array3[6] = false
+array3[7] = 'fi'
+array3[8] = 'nooo'
+array3[9] = 99
+for (i = 0; i < array3.length; i++) {
+    console.log(array3[i])
+}*/
+// - Створити цикл for на 10  ітерацій з кроком 1.
+// Вивести поточний номер кроку через console.log та document.write
+/*for (i = 0; i < 10; i++) {
+    console.log('крок циклу :' + i + " ")
+    document.write('крок циклу :' + i + " ")
+}*/
 // - Створити цикл for на 100 ітерацій з кроком 1. Вивести поточний номер кроку через console.log та document.write
-// - Створити цикл for на 100 ітерацій з кроком 2. Вивести поточний номер кроку через console.log та document.write
-// - Створити цикл for на 100 ітерацій. Вивести тільки парні кроки. через console.log + document.write
+/*for (i = 0; i < 100; i++) {
+    console.log('крок циклу :' + i + " ")
+    document.write('крок циклу :' + i + " ")
+}*/
+// - Створити цикл for на 100 ітерацій з кроком 2.
+// Вивести поточний номер кроку через console.log та document.write
+/*for (i = 0; i < 100; i += 2) {
+    console.log('крок циклу :' + i + " ")
+    document.write('крок циклу :' + i + " ")
+}*/
+// - Створити цикл for на 100 ітерацій. Вивести тільки парні кроки.
+// через console.log + document.write
+for (i = 0; i < 100; i++) {
+    if (i % 2 === 0) {
+        console.log('крок циклу :' + i + " ")
+        document.write('крок циклу :' + i + " ")
+    }
+}
 // - Створити цикл for на 100 ітерацій. Вивести тільки непарні кроки. через console.log + document.write
+for (i = 0; i < 100; i++) {
+    if (i % 2 === 1) {
+        console.log('крок циклу :' + i + " ")
+        document.write('крок циклу :' + i + " ")
+    }
+}
