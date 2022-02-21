@@ -72,4 +72,5 @@ console.log(upper1leter('функція, яка приймає рядок як �
 let capitalize = (str) => {
     return str.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
 };
+
 document.write(capitalize('функція capitalize(str), яка повертає рядок, у якому кожне словопочинається з великої літери.'))
